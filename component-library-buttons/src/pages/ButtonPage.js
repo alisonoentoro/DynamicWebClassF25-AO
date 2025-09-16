@@ -5,23 +5,32 @@ const ButtonPage = () => {
   return(
     <div><h1>Button page</h1>
         <div>
-            <Button primary>Primary</Button>
+            <Button 
+            primary 
+            outline 
+            onClick={() => console.log('CLICK')}>Primary</Button>
         </div>
 
         <div>
-            <Button secondary>Secondary</Button>
+            <Button 
+            secondary 
+            className="fixed top-0 right-0">Secondary</Button>
         </div>
 
         <div>
-            <Button success>Success</Button>
+            <Button 
+            success 
+            >Success</Button>
         </div>
 
         <div>
-            <Button warning>Warning</Button>
+            <Button 
+            warning 
+            >Warning</Button>
         </div>
 
         <div>
-            <Button danger>Danger</Button>
+            <Button danger rounded>Danger</Button>
         </div>
     </div>
   )
