@@ -7,7 +7,6 @@ const ButtonPage = () => {
         <div>
             <Button 
             primary 
-            outline 
             onClick={() => console.log('CLICK')}>Primary</Button>
         </div>
 
