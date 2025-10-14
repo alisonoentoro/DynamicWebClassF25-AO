@@ -8,3 +8,5 @@ Sunset Pomodoro is an interactive timer that shifts with time and place. As you 
 2. Customizable Time: Users can change the working time in the settings, ranging from 5 to 60 minutes (in intervals of 5 minutes). This is reflected on the main pomodoro page upon saving.
 
 3. Gradient Background: A dynamic, sunset-themed gradient effect is created for each city location using the Granim.js library.
+
+https://docs.google.com/presentation/d/1tlnz7Zl38lnKphrCj1_AZHFfKBtEr8Qnob77txZrVZM/edit?usp=sharing
