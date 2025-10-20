@@ -26,9 +26,9 @@ export default function Dropdown({
   const handleToggle = () => setIsOpen((s) => !s);
 
   const handleOptionClick = (opt) => {
-    setIsOpen(false);
-    onChange(opt); 
-  };
+    setIsOpen(false)
+    onChange(opt)
+  }
 
   const renderedOptions =
     options.length === 0 ? (

@@ -34,9 +34,9 @@ function Pomodoro({ timerMinutes = 25 }) {
 
   // When settings change, stop and reset to the new duration
   useEffect(() => {
-    stopTimer();
+    stopTimer()
     setTimeLeft(timerMinutes * 60)
-  }, [timerMinutes]);
+  }, [timerMinutes])
 
   // Cleanup 
   useEffect(() => () => stopTimer(), [])
